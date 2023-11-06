@@ -1,5 +1,8 @@
 package com.ada;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class VerificadorSenha {
 
     /**
@@ -9,13 +12,22 @@ public class VerificadorSenha {
      * 4. Deve conter caracteres especiais
      */
 
+    private final int TAM = 8;
     public boolean isValida(String senha){
         if (senha == null){
             return false;
         }
-        if (senha.length() < 8){
-            return false;
-        }
-        return true;
+
+        boolean isSizeOk = senha.length() >= TAM;
+
+        Pattern pattern = Pattern.compile("[0-9]");
+        Matcher matcher = pattern.matcher(senha);
+        boolean hasDigit = matcher.find();
+
+        pattern = Pattern.compile("[a-z]");
+        matcher = pattern.matcher(senha);
+        boolean hasLetter = matcher.find();
+
+        return isSizeOk && hasDigit && hasLetter;
     }
 }

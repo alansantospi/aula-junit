@@ -2,7 +2,7 @@ package com.ada.exceptions;
 
 public class UsuarioNaoEncontradoException extends Exception {
 
-    public UsuarioNaoEncontradoException(){
-        super();
+    public UsuarioNaoEncontradoException(String login){
+        super("Usuário " + login + " não encontrado!");
     }
 }

@@ -28,7 +28,7 @@ public class UsuarioService {
                 return u;
             }
         }
-        throw new UsuarioNaoEncontradoException();
+        throw new UsuarioNaoEncontradoException(login);
     }
 
 }

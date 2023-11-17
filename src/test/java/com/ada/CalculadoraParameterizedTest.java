@@ -18,7 +18,7 @@ class CalculadoraParameterizedTest {
 //    @JsonFileSource(resources="/dados.json")
     @MethodSource(value = "obterDados")
     public void testaSoma(int x, int y, int expected){
-        Calculadora calc = new Calculadora();
+        com.ada.Calculadora calc = new com.ada.Calculadora();
         int result = calc.somar(x, y);
         assertEquals(expected, result);
     }

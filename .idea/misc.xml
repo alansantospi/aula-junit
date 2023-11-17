@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../projeto-1/pom.xml" />
         <option value="$PROJECT_DIR$/../aula-mocks/pom.xml" />
+        <option value="$PROJECT_DIR$/aula-tdd/pom.xml" />
+        <option value="$PROJECT_DIR$/aula-integracao/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

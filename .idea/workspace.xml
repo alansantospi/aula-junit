@@ -4,12 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3f2a47-c4e4-4319-ba64-67cf1937ffb9" name="Changes" comment="cotacao dolar">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="ea3f2a47-c4e4-4319-ba64-67cf1937ffb9" name="Changes" comment="testes de integração">
+      <change afterPath="$PROJECT_DIR$/aula-integracao/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/src/main/java/com/ada/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/src/main/java/com/ada/integracao/AulaIntegracaoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/src/main/java/com/ada/integracao/CalcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/src/main/java/com/ada/integracao/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/src/main/java/com/ada/integracao/rest/CalculadoraRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/src/test/java/com/ada/integracao/AulaIntegracaoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-integracao/src/test/java/com/ada/integracao/rest/CalculadoraRestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-tdd/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-tdd/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-tdd/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-tdd/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-tdd/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-tdd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-tdd/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ada/CalculadoraParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ada/CalculadoraParameterizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-mocks/src/main/java/com/ada/aulamocks/CotacaoDolarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula-mocks/src/main/java/com/ada/aulamocks/CotacaoDolarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-mocks/src/test/java/com/ada/aulamocks/CotacaoDolarServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula-mocks/src/test/java/com/ada/aulamocks/CotacaoDolarServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +66,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../aula-mocks" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/aula-integracao" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -61,11 +85,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2XakN99czzEv601mL4mWGbE3idn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -79,6 +114,10 @@
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -86,32 +125,40 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "C:/Users/alans/git/aulas/java/aula-junit/aula-junit/aula-integracao/src/main/java/com/ada",
     "last_opened_file_path": "C:/Users/alans/git/aulas/java/aula-junit/projeto-1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.32198712",
+    "spring.configuration.checksum": "f5307ff8efb5004fe810b5412228a1cc",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ada.tdd.exception" />
+      <recent name="com.ada.tdd" />
       <recent name="com.ada.aulamocks" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alans\git\aulas\java\aula-junit\aula-junit\src\main\java\com\ada\rest" />
       <recent name="C:\Users\alans\git\aulas\java\aula-junit\aula-junit\src\test\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ada.tdd" />
       <recent name="com.ada.aulamocks" />
       <recent name="com.ada" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ada.integracao.rest" />
       <recent name="com.ada.aulamocks" />
       <recent name="com.ada.service" />
       <recent name="com.ada" />
@@ -120,62 +167,66 @@
       <recent name="com.ada" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CotacaoDolarServiceTest">
-    <configuration name="BancoCentralAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ada.aulamocks.BancoCentralAPI" />
-      <module name="aula-mocks" />
+  <component name="RunManager" selected="JUnit.CalculadoraRestTest.teste_somar">
+    <configuration name="AgendadorTest.testeAgendarConsulta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula-tdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ada.aulamocks.*" />
+          <option name="PATTERN" value="com.ada.tdd.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutenticacaoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aula-mocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ada.aulamocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ada.aulamocks" />
-      <option name="MAIN_CLASS_NAME" value="com.ada.aulamocks.AutenticacaoServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutenticacaoServiceTest.testAutenticar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aula-mocks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ada.aulamocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ada.aulamocks" />
-      <option name="MAIN_CLASS_NAME" value="com.ada.aulamocks.AutenticacaoServiceTest" />
-      <option name="METHOD_NAME" value="testAutenticar" />
+      <option name="PACKAGE_NAME" value="com.ada.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.ada.tdd.AgendadorTest" />
+      <option name="METHOD_NAME" value="testeAgendarConsulta" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutenticacaoServiceTest.testAutenticar_quandoUsuarioExisteELoginCorreto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aula-mocks" />
+    <configuration name="AgendadorTest.testeAgendarConsultaParaMedicoComAgendaIndisponivel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula-tdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ada.aulamocks.*" />
+          <option name="PATTERN" value="com.ada.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ada.aulamocks" />
-      <option name="MAIN_CLASS_NAME" value="com.ada.aulamocks.AutenticacaoServiceTest" />
-      <option name="METHOD_NAME" value="testAutenticar_quandoUsuarioExisteELoginCorreto" />
+      <option name="PACKAGE_NAME" value="com.ada.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.ada.tdd.AgendadorTest" />
+      <option name="METHOD_NAME" value="testeAgendarConsultaParaMedicoComAgendaIndisponivel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgendadorTest.testeCancelar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula-tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ada.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ada.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.ada.tdd.AgendadorTest" />
+      <option name="METHOD_NAME" value="testeCancelar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraRestTest.teste_somar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula-integracao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ada.integracao.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ada.integracao.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.ada.integracao.rest.CalculadoraRestTest" />
+      <option name="METHOD_NAME" value="teste_somar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,6 +247,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AulaIntegracaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aula-integracao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.integracao.AulaIntegracaoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AulaMockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="aula-mock.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.aulamock.AulaMockApplication" />
@@ -210,13 +268,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AulaTddApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="aula-tdd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.tdd.AulaTddApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AulaTddApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="aula-tdd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.aulatdd.AulaTddApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CalculadoraRestTest.teste_somar" />
+      <item itemvalue="JUnit.AgendadorTest.testeAgendarConsulta" />
+      <item itemvalue="JUnit.AgendadorTest.testeAgendarConsultaParaMedicoComAgendaIndisponivel" />
+      <item itemvalue="JUnit.AgendadorTest.testeCancelar" />
+      <item itemvalue="JUnit.CotacaoDolarServiceTest" />
+      <item itemvalue="Spring Boot.AulaIntegracaoApplication" />
+      <item itemvalue="Spring Boot.AulaMockApplication" />
+      <item itemvalue="Spring Boot.AulaMocksApplication" />
+      <item itemvalue="Spring Boot.AulaTddApplication" />
+      <item itemvalue="Spring Boot.AulaTddApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraRestTest.teste_somar" />
+        <item itemvalue="JUnit.AgendadorTest.testeCancelar" />
+        <item itemvalue="JUnit.AgendadorTest.testeAgendarConsultaParaMedicoComAgendaIndisponivel" />
+        <item itemvalue="JUnit.AgendadorTest.testeAgendarConsulta" />
         <item itemvalue="JUnit.CotacaoDolarServiceTest" />
-        <item itemvalue="JUnit.AutenticacaoServiceTest.testAutenticar_quandoUsuarioExisteELoginCorreto" />
-        <item itemvalue="JUnit.AutenticacaoServiceTest.testAutenticar" />
-        <item itemvalue="Application.BancoCentralAPI" />
-        <item itemvalue="JUnit.AutenticacaoServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +316,11 @@
       <workItem from="1699269253804" duration="1401000" />
       <workItem from="1699306512124" duration="12322000" />
       <workItem from="1699358797870" duration="266000" />
-      <workItem from="1699479423681" duration="12658000" />
+      <workItem from="1699479423681" duration="13373000" />
+      <workItem from="1699653553217" duration="9625000" />
+      <workItem from="1699877510429" duration="55000" />
+      <workItem from="1699912605750" duration="11404000" />
+      <workItem from="1700257429163" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1699307621118</created>
@@ -297,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699491602419</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="cotacao dolar">
+      <created>1699530824930</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699530824930</updated>
+    </task>
+    <task id="LOCAL-00011" summary="testes de integração">
+      <created>1700258109677</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700258109677</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +413,8 @@
     <MESSAGE value="testes de usuario" />
     <MESSAGE value="projeto 1" />
     <MESSAGE value="cotacao dolar" />
-    <option name="LAST_COMMIT_MESSAGE" value="cotacao dolar" />
+    <MESSAGE value="testes de integração" />
+    <option name="LAST_COMMIT_MESSAGE" value="testes de integração" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,13 +456,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../aula-mocks/src/main/java/com/ada/aulamocks/CotacaoDolarService.java</url>
-          <line>17</line>
+          <line>19</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../aula-mocks/src/main/java/com/ada/aulamocks/BancoCentralAPI.java</url>
           <line>31</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../aula-mocks/src/test/java/com/ada/aulamocks/CotacaoDolarServiceTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aula-tdd/src/test/java/com/ada/tdd/AgendadorTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aula-tdd/src/test/java/com/ada/tdd/AgendadorTest.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
